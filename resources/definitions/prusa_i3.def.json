@@ -1,21 +1,21 @@
 {
     "version": 2,
-    "name": "Prusa i3",
+    "name": "CCH MY3B Z23",
     "inherits": "fdmprinter",
     "metadata": {
         "visible": true,
         "author": "Quillford",
-        "manufacturer": "Prusa3D",
+        "manufacturer": "CCH Technology",
         "file_formats": "text/x-gcode",
         "platform": "prusai3_platform.3mf",
         "machine_extruder_trains":
         {
-            "0": "prusa_i3_extruder_0"
+            "0": "cch_technology_extruder_0"
         }
     },
 
     "overrides": {
-        "machine_name": { "default_value": "Prusa i3" },
+        "machine_name": { "default_value": "CCH MY3B Z23" },
         "machine_heated_bed": {
             "default_value": true
         },
@@ -26,7 +26,7 @@
             "default_value": 200
         },
         "machine_depth": {
-            "default_value": 200
+            "default_value": 230
         },
         "machine_center_is_zero": {
             "default_value": false
